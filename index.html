@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sergiy Yegorov - My First Webpage</title>
+        <!--The page contains images from the free resource www.depositphotos.com-->
+        <link rel="icon" type="image/png" 
+        href="http://www.intro-webdesign.com/images/newlogo.png">
+    </head>
+    <body id="top">
+        <header>
+            <h1>
+                <a href="index.html">Sergiy Yegorov (Test site)</a>
+            </h1>
+            <nav>
+                <!--By convention, CSS cannot be used in this task, so we use a <table> 
+                    to display the navigation elements in a row.-->
+                <table>
+                    <tr>
+                        <td><a href="#top">One</a></td>
+                        <td><a href="#FavoriteFoods">Two</a></td>
+                        <td><a href="#Achievements">Three</a></td>
+                        <td><a href="#MoreAboutMe">More About Me</a></td>
+                    </tr>
+                </table>                
+            </nav>
+        </header>
+        <section id="FavoriteFoods">
+            <h2>Favorite Foods</h2>
+            <ul>
+                <li>
+                    Fruit salad
+                    <figure>
+                        <img src="https://st.depositphotos.com/1177973/2332/i/450/depositphotos_23325182-stock-photo-fresh-fruits-salad-in-bowl.jpg" 
+                        width="150" alt="">                    
+                    </figure>
+                </li>
+                <li>
+                    Bacon & eggs
+                    <figure>
+                        <img src="https://static6.depositphotos.com/1066961/552/i/450/depositphotos_5527433-stock-photo-bacon-and-eggs.jpg" 
+                        width="150" alt="">
+                    </figure>    
+                </li>
+                <li>
+                    Pizza
+                    <figure>
+                        <img src="https://st.depositphotos.com/1003814/5052/i/450/depositphotos_50522615-stock-photo-pizza-with-tomatoes.jpg" 
+                        width="150" alt="">
+                    </figure>
+                </li>
+                <li>
+                    Apple pie
+                    <figure>
+                        <img src="https://static9.depositphotos.com/1290614/1184/i/450/depositphotos_11849252-stock-photo-apple-cake.jpg" 
+                        width="150" alt="">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section id="Achievements">
+            <h2>Achievements</h2>
+            <p>
+                Progress in this course (100%)            
+                <progress max="100" value="100"></progress>
+            </p>
+            <p>
+                Progress in the Specialization capstone (20%)            
+                <progress max="100" value="20"></progress>
+            </p>
+            <p>
+                Progress in life goals (55%)            
+                <progress max="100" value="55"></progress>
+            </p>
+        </section>
+        <section id="MoreAboutMe">
+            <h2>More About Me</h2>
+            <details>
+                <summary>
+                    Where I grew up and studied
+                </summary>
+                <p>I was born and raised in Zaporozhye, Ukraine and now live here. 
+                    I graduated from ZNTU in 2000. Currently I am studying at the 
+                    Faculty of Mathematics of ZNU in the magistracy.</p>
+            </details>
+        </section>
+        <footer>
+            <img src="http://www.intro-webdesign.com/images/newlogo.png" 
+            alt="Logo Intro to Web Design">
+            <p>
+                This page was created by Sergiy Yegorov & Colleen van Lent. 
+                To lean more about web design, visit 
+                <a href="http://www.intro-webdesign.com" 
+                target="_blank">Intro to Web Design.</a>
+            </p>
+            <a href="#top">Page UP</a>
+        </footer>
+    </body>
+</html>
